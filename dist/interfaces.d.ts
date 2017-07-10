@@ -1,7 +1,7 @@
 export interface IFrontendService {
     getFrontend(): Function;
     transformRoute(routeConfig: any): any;
-    injectStaticLinkTag(linkTag: {
+    injectStaticLink(linkTag: {
         type: string;
         href: string;
     }): any;
