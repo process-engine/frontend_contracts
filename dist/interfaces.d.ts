@@ -3,9 +3,6 @@ export interface IFrontendService {
     initialize(): void;
 }
 export interface IServerSideRenderService {
-    initialize(): void;
-    render(frontendProvider?: IFrontendProvider): Function;
-}
-export interface IFrontendProvider {
-    initialize(): void;
+    initialize(frontendConfig: any): void;
+    render(res: any, req: any, next: any): Function;
 }
