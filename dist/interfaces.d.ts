@@ -1,9 +1,8 @@
 export interface IFrontendService {
     getFrontend(): Function;
-    transformRoute(routeConfig: any): any;
-    injectStaticLink(linkTag: {
-        type: string;
-        href: string;
-    }): any;
     initialize(): void;
+}
+export interface IServerSideRenderService {
+    initialize(frontendConfig: any): void;
+    render(res: any, req: any, next: any): Function;
 }
