@@ -1,5 +1,5 @@
 {
-  "name": "@process-engine-js/frontend_contracts",
+  "name": "@process-engine/frontend_contracts",
   "publishConfig": {
     "registry": "https://www.npmjs.com"
   },
@@ -15,7 +15,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@process-engine-js/tslint-config": "^1.0.1",
+    "@essential-projects/tslint-config": "^1.0.1",
     "gulp": "^3.9.1",
     "gulptraum": "^2.2.1",
     "gulptraum-typescript": "^1.3.2",
